@@ -1,0 +1,394 @@
+html
+{
+	scroll-behavior:smooth;
+}
+
+body
+{
+	margin:0;
+	height:100%;
+	overflow:auto;
+}
+
+header
+{
+	color:white;
+	padding:1px 0px 1px 17px;
+	height:55px;
+}
+
+.navigation
+{
+	list-style-type:none;
+	padding:0px;
+	float:left;
+}
+
+.navigation li
+{
+	display:inline-block;
+	font-size:28px;
+	font-family: 'Patua One', cursive;
+	margin-right:25px;
+}
+
+.navigation li a
+{
+	text-decoration:none;
+	color:white;
+}
+
+.navigation li a:hover
+{
+	background-color:rgb(0, 178, 154);
+	color:white;
+	padding:27px 10px 8px 10px;
+}
+
+.divider
+{
+	background-color:rgb(0, 178, 154);
+	width:100%;
+	height:5px;
+}
+
+.homepage
+{
+	background-image:url("images/homepage_background.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	width:100%;
+	height:100%;
+}
+
+.homeheading
+{
+	text-align:left;
+	position:absolute;
+	top:25%;
+	left:3%;
+}
+
+.homeknow
+{
+	color:white;
+	font-family: 'Spicy Rice', cursive;
+	font-size:90px;
+	margin:0;
+	padding:0;
+}
+
+.homegala
+{
+	color:rgb(0, 178, 154);
+	font-family: 'Spicy Rice', cursive;
+	font-size:150px;
+	margin:0;
+	padding:0;
+}
+
+.signup
+{
+	position:absolute;
+	top:13%;
+	left:60%;
+	width:400px;
+	padding:25px 40px 40px 40px;
+	background-color:rgba(240, 240, 240, 0.4);
+	box-sizing:border-box;
+	border-radius:10px;	
+}
+
+.signup h2
+{
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-family: 'Oswald', sans-serif;
+	font-size:60px;
+}
+
+.signup .inputbox
+{
+	position:relative;
+}
+
+.signup .inputbox input
+{
+	width:100%;
+	padding:10px 0;
+	font-size:16px;
+	color:white;
+	letter-spacing:1px;
+	margin-bottom:30px;
+	border:none;
+	border-bottom:1px solid white;
+	outline:none;
+	background:transparent;
+}
+
+.signup .inputbox label
+{
+	position:absolute;
+	top:0;
+	left:0;
+	padding:10px 0;
+	font-size:16px;
+	font-family:sans-serif;
+	color:white;
+	letter-spacing:1px;
+	pointer-events:none;
+	transition: .5s;
+}
+
+.signup .inputbox input:focus ~ label,
+.signup .inputbox input:valid ~ label
+{
+	top:-24px;
+	left:0;
+	color:rgb(255, 165, 0);
+	font-size:14px;
+	font-weight:400;
+}
+
+.signup .inputbox input:inactive ~ label,
+.signup .inputbox input:invalid ~ label
+{
+	top:-24px;
+	left:0;
+	color:rgb(255, 0, 0);
+	font-size:14px;
+	font-weight:400;
+}
+
+.signup input[type="submit"]
+{
+	background:transparent;
+	border: none;
+	outline:none;
+	color:white;
+	background:red;
+	padding:10px 20px;
+	cursor:pointer;
+	border-radius:5px;
+}
+
+#p2{
+	color:white;
+	font-family: 'Patua One', cursive;
+	font-size:50px;
+	text-align:center;
+}
+
+
+.secondpage
+{
+	background-color:black;
+	margin:0;
+	margin-top:2px;
+	width:100%;
+	box-sizing:border-box;
+}
+
+#themilkyway
+{
+	text-align:center;
+	font-size:70px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight:700;
+	color:SlateBlue;
+	margin:0;
+	padding:15px;
+}
+
+
+
+.image1
+{
+	width:300px;
+	border:1px solid red;
+	color:Orange;
+	padding:6px;
+	text-align:justify;
+	float:right;
+	margin:10px;
+	font-size:20px;
+}
+
+.image1 img
+{
+	width:300px;
+	height:409px;
+}
+
+.para1
+{
+	color:white;
+	font-size:25px;
+}
+
+.para2
+{
+	color:Tomato;
+	font-size:25px;
+}
+
+.image2
+{
+	width:550px;
+	border:1px solid red;
+	color:Orange;
+	padding:6px;
+	text-align:justify;
+	float:left;
+	margin:10px;
+	font-size:20px;
+}
+
+.image2 img
+{
+	width:550px;
+	height:275px;
+}
+
+.image3
+{
+	width:550px;
+	border:1px solid red;
+	color:Orange;
+	padding:6px;
+	text-align:justify;
+	float:right;
+	margin:10px;
+	font-size:20px;
+}
+
+.image3 img
+{
+	width:550px;
+	height:505px;
+}
+
+.image4
+{
+	width:550px;
+	border:1px solid red;
+	color:Orange;
+	padding:6px;
+	text-align:justify;
+	float:left;
+	margin:10px;
+	font-size:20px;
+}
+
+.image4 img
+{
+	width:550px;
+	height:367px;
+}
+
+
+.thirdpage
+{
+	background-color:black;
+	margin:0;
+	margin-top:2px;
+	width:100%;
+}
+
+#oursolarsystem
+{
+	text-align:center;
+	font-size:70px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight:700;
+	color:SlateBlue;
+	margin:0;
+	padding:15px;
+}
+
+.thirdpage img
+{
+	width:1360px;
+	height:750px;
+}
+
+.slide1
+{
+	font-size:20px;
+	color:red;
+}
+
+.slide2
+{
+	font-size:20px;
+	color:orange;
+}
+
+
+.fourthpage
+{
+	margin:0;
+	margin-top:2px;
+	background-color:black;
+	box-sizing:border-box;
+}
+
+#othergalaxies
+{
+	text-align:center;
+	font-size:70px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight:700;
+	color:SlateBlue;
+	margin:0;
+	padding:15px;
+}
+
+.row1::after
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column
+{
+	width:33.33%;
+	padding:0px;
+	float:left;
+	text-align:center;
+}
+
+.column a
+{
+	text-decoration:none;
+	color:white;
+}
+
+.column img
+{
+	border-radius:7px;
+}
+
+.midcolumn
+{
+	width:33.33%;
+	padding:2px;
+	text-align:center;
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.midcolumn a
+{
+	text-decoration:none;
+	color:white;
+}
+
+.midcolumn img
+{
+	border-radius:7px;
+}
